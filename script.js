@@ -174,7 +174,7 @@ $("document").ready(function () {
           date = date.format("MMMM Do YYYY");
           var icon = `https://openweathermap.org/img/wn/${dayData.weather[0].icon}@2x.png`;
           var weather = dayData.weather[0].description;
-          var temp = (dayData.temp.day - 273.15).toFixed(1) + "ºC";
+          var temp = (dayData.temp.day - 273.15).toFixed(1) + "ºF";
           var humid = dayData.humidity + "%";
           var windSpeed = dayData.wind_speed + " mts/s";
           var uv = dayData.uvi;
